@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>  <!--Cabeçalho da pagina (Header)-->
+        <!--titulo cabeçalho-->
+        <div>
+            <h1>JoJo's Bizarre Adventure</h1>
+        </div>
+        <nav>
+            <!-- contudo da pagina header -->
+            <ul>
+                <li>dscsdv</li>
+                <li>sdvssdfsdf</li>
+            </ul>
+        </nav>
+
+        <div id="validador">
+            <!-- Etiqueta do elemento input -->
+            <h2>Você gosta de JoJo?</h2>
+            <input type="radio" name="validar" value="sim">
+            <label for="amarelo">Sim</label><br>
+            <input type="radio" name="validar" value="não">
+            <label for="vermelho">Não</label><br>
+
+        </div>
+    </header>
+
+    <main>
+        <section>
+             <!-- Texto da Seção Home -->
+             <article id="home_texto">
+                <h4>Bem vindo ao universo de JoJo's Bizarre Adventure</h4>
+                <p>JoJo's conta a história da família Joestar, uma família cujos vários
+                     membros descobrem que estão destinados a derrubar inimigos 
+                     sobrenaturais, tais como Dio Brando um vampiro semi-imortal, 
+                     Yoshikage Kira um serial killer e Diavolo um líder de gangue 
+                     usando poderes únicos que possuem. Sendo dividido em nove partes
+                      únicas, cada uma seguindo a história de um descendente da 
+                      família Joestar, que inevitavelmente tem um nome que pode ser 
+                      abreviado para o titular "JoJo". As primeiras seis partes da 
+                      série ocorrem em uma única continuidade, enquanto as partes 
+                      7, 8 e 9 ocorrem em uma continuidade alternativa.</p>
+
+                <a target="_blank" href="video.html"
+                    alt="leva para a pagina do video">Trailer</a>
+            </article>
+            <article>
+                <img src="assets/img/jojo titulo.jfif" alt="titulo jojo">
+            </article>
+        </section>
+
+        <section>
+            <form action="">
+                <input type="hidden" name="_next" value="">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="nome"><strong>Nome: </strong></label>
+                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email"><strong>Email: </strong></label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="subject"><strong>Assunto: </strong></label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+
+                <label for="message"><strong>Mensagem: </strong></label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+                
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>feito por adriel &copy;</p>
+    </footer>
+</body>
+</html>
